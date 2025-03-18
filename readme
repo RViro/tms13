@@ -1,14 +1,14 @@
-check_email function:
+1)check_email function:
 Accepts an email string
 Uses a regular expression to check the format
 Outputs “valid” and returns 0 on successful match
 Outputs “invalid” and returns 1 on error
-check_phone function:
+2)check_phone function:
 Accepts a phone number string
 Checks the format: +1(123)-456-78-90
 Outputs “valid” and returns 0 on successful match
 Outputs “invalid” and returns 1 on error
-check_input function:
+3)check_input function:
 Accepts the check type (email/phone) and value
 Calls the appropriate checking function
 Returns error code 2 for an invalid option
